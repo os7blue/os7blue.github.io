@@ -1,7 +1,8 @@
 const config ={
     //视频列表
     videoList :[
-        { no: '1', color: '', fit: '' },
+        { url: 'https://github.com/os7blue/os7blue.github.io/blob/main/video/3.mp4', color: '', fit: '' },
+        
 
   
     ],
