@@ -11,7 +11,7 @@ function handleEvent() {
 
 
 let v = config.videoList[config.videoList.length-1]
-document.getElementById("bg-video").src = `/Users/codecv/index/video/${v.no}.mp4`
+document.getElementById("bg-video").src = `./video/${v.no}.mp4`
 document.getElementById("content").style.color = `${v.color}`
 document.getElementById("bg-video").style.objectFit = `${v.fit}`
 
